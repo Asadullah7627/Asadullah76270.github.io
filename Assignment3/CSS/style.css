@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+border: black;
+border-radius: inherit;
+background-color: black ;
+color: #61122F;
+padding: 14px;
+}
+body{
+	background-color: White;
+	color: Black
+}
+
+
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: #13DFB1   ;
+}
+.text-center{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: #13DFB1 ;
+	text-align: center;
+}
+.navbar-brand{
+font-size: 32px;	
+color: #1A8FD6 ;
+}
+
+/* For Mobile Size Screen */
+@media (max-width: 767px){
+	
+#main-content{
+	margin: 0 40px auto 40px;
+}
+}
